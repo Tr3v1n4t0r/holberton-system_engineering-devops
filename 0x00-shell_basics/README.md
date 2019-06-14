@@ -1,22 +1,22 @@
 file 0 contains a script that prints the absolute path name of the current working directory
 
-file 1 contains
+file 1 contains the command to print the working directory
 
 file 2 contains a script that changes the working directory to the user’s home directory
 
-file 3 contains 
+file 3 contains the command to print the working directory in long form
 
-file 4 contains 
+file 4 contains the command to print the working directory, including hidden files, in long format
 
-file 5 contains 
+file 5 contains the command to print the working directory, including hidden files, in long format and displaying the user and group IDs
 
 file 6 contains  a script that creates a directory named holberton in the /tmp/ directory
 
-file 7 contains 
+file 7 contains the command to move the file 'betty' to another directory
 
-file 8 contains 
+file 8 contains the command to delete the file 'betty'
 
-file 9 contains
+file 9 contains the command to delete the directory holberton/
 
 file 10 contains a script that changes the working directory to the previous one
 
@@ -35,3 +35,5 @@ file 16 contains a script that deletes all files in the current working director
 file 17 contains a script that creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory
 
 file 18 contains a command that lists all the files and directories of the current directory, separated by commas (,)
+
+file holberton.mgc contains my attempt at manipulating a magic file using -mime
