@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script prints the contents of the current working directory in list format with only the part of the name after the -
+for i in *
+do
+    i=${i#*-}
+    echo "$i"
+done
