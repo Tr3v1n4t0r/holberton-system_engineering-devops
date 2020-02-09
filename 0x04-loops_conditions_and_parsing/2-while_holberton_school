@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script prints "Holberton School" 10 times using a while loop
+i=0
+while [ $i -le 9]
+do
+
+    echo "Holberton School"
+    ((i++))
+done
