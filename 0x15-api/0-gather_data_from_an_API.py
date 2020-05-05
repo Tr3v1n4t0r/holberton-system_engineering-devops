@@ -3,7 +3,7 @@
 For a given employee ID, return information about TODO list progress
 """
 
-if __name__=='__main__':
+if __name__ == '__main__':
     import requests
     from sys import argv
 
