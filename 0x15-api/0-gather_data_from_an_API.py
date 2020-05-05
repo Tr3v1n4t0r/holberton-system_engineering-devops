@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
     req = requests.get('https://jsonplaceholder.typicode.com/todos?userId={}'.
                        format(argv[1]))
-    data = r.json()
+    data = req.json()
     done = total = 0
     for task in data:
         total += 1
