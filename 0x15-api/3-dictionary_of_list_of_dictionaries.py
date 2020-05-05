@@ -20,8 +20,8 @@ if __name__ == '__main__':
                        format(user))
         username = req.json().get('username')
 
-        req = requests.get('https://jsonplaceholder.typicode.com/todos?userId={}'.
-                       format(argv[user]))
+        req = requests.get('https://jsonplaceholder.typicode.com/' +
+                           'todos?userId={}'.format(user))
         data = req.json()
 
         export['{}'.format(user)] = []
