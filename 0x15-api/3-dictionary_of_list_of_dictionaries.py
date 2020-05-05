@@ -22,11 +22,11 @@ if __name__ == '__main__':
 
         req = requests.get('https://jsonplaceholder.typicode.com/todos?userId={}'.
                        format(argv[user]))
-        data = req.json{}
+        data = req.json()
 
-        export['{}'.format(argv[1])] = []
+        export['{}'.format(user)] = []
         for task in data:
-            export['{}'.format(argv[1])].append({
+            export['{}'.format(user)].append({
                 'task': task.get('title'),
                 'completed': task.get('completed'),
                 'username': username
