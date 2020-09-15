@@ -17,7 +17,7 @@ if __name__ == '__main__':
     export = {}
     for user in all_id:
         req = requests.get('https://jsonplaceholder.typicode.com/users/{}'.
-                       format(user))
+                            format(user))
         username = req.json().get('username')
 
         req = requests.get('https://jsonplaceholder.typicode.com/' +
